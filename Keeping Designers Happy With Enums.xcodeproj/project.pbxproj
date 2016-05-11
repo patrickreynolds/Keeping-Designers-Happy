@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4351E5DE1CCD290600B4B3B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E5DD1CCD290600B4B3B0 /* AppDelegate.swift */; };
-		4351E5E01CCD290600B4B3B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E5DF1CCD290600B4B3B0 /* ViewController.swift */; };
+		4351E5E01CCD290600B4B3B0 /* CityScapeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E5DF1CCD290600B4B3B0 /* CityScapeVC.swift */; };
 		4351E5E31CCD290600B4B3B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4351E5E11CCD290600B4B3B0 /* Main.storyboard */; };
 		4351E5E51CCD290600B4B3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4351E5E41CCD290600B4B3B0 /* Assets.xcassets */; };
-		4351E5E81CCD290600B4B3B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4351E5E61CCD290600B4B3B0 /* LaunchScreen.storyboard */; };
 		4351E5F31CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E5F21CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsTests.swift */; };
 		4351E5FE1CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E5FD1CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsUITests.swift */; };
+		4351E60D1CCD297C00B4B3B0 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E60C1CCD297C00B4B3B0 /* Stylesheet.swift */; };
+		437E049A1CE16A5300C1223C /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E04991CE16A5300C1223C /* UIColorExt.swift */; };
+		437E049C1CE2414000C1223C /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E049B1CE2414000C1223C /* UIImageViewExt.swift */; };
+		43B0812F1CD55AB60033532F /* CityScapeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */; };
+		43B081301CD55AB60033532F /* CityScapeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B0812E1CD55AB60033532F /* CityScapeTableViewCell.xib */; };
+		43B081321CD55D610033532F /* CityScapePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B081311CD55D610033532F /* CityScapePhotos.swift */; };
+		43B081341CD567C10033532F /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B081331CD567C10033532F /* ArrayExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,9 @@
 /* Begin PBXFileReference section */
 		4351E5DA1CCD290600B4B3B0 /* Keeping Designers Happy With Enums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keeping Designers Happy With Enums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4351E5DD1CCD290600B4B3B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4351E5DF1CCD290600B4B3B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4351E5DF1CCD290600B4B3B0 /* CityScapeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityScapeVC.swift; sourceTree = "<group>"; };
 		4351E5E21CCD290600B4B3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4351E5E41CCD290600B4B3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4351E5E71CCD290600B4B3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4351E5E91CCD290600B4B3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4351E5EE1CCD290600B4B3B0 /* Keeping Designers Happy With EnumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keeping Designers Happy With EnumsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4351E5F21CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keeping_Designers_Happy_With_EnumsTests.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		4351E5F91CCD290600B4B3B0 /* Keeping Designers Happy With EnumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keeping Designers Happy With EnumsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4351E5FD1CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keeping_Designers_Happy_With_EnumsUITests.swift; sourceTree = "<group>"; };
 		4351E5FF1CCD290600B4B3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4351E60C1CCD297C00B4B3B0 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
+		437E04991CE16A5300C1223C /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		437E049B1CE2414000C1223C /* UIImageViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScapeTableViewCell.swift; sourceTree = "<group>"; };
+		43B0812E1CD55AB60033532F /* CityScapeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityScapeTableViewCell.xib; sourceTree = "<group>"; };
+		43B081311CD55D610033532F /* CityScapePhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScapePhotos.swift; sourceTree = "<group>"; };
+		43B081331CD567C10033532F /* ArrayExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,16 @@
 		4351E5DC1CCD290600B4B3B0 /* Keeping Designers Happy With Enums */ = {
 			isa = PBXGroup;
 			children = (
-				4351E5DD1CCD290600B4B3B0 /* AppDelegate.swift */,
-				4351E5DF1CCD290600B4B3B0 /* ViewController.swift */,
 				4351E5E11CCD290600B4B3B0 /* Main.storyboard */,
+				4351E5DF1CCD290600B4B3B0 /* CityScapeVC.swift */,
+				43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */,
+				43B0812E1CD55AB60033532F /* CityScapeTableViewCell.xib */,
+				4351E60C1CCD297C00B4B3B0 /* Stylesheet.swift */,
+				43B081311CD55D610033532F /* CityScapePhotos.swift */,
 				4351E5E41CCD290600B4B3B0 /* Assets.xcassets */,
-				4351E5E61CCD290600B4B3B0 /* LaunchScreen.storyboard */,
-				4351E5E91CCD290600B4B3B0 /* Info.plist */,
+				4351E60B1CCD293900B4B3B0 /* Supporting Files */,
+				437E04991CE16A5300C1223C /* UIColorExt.swift */,
+				437E049B1CE2414000C1223C /* UIImageViewExt.swift */,
 			);
 			path = "Keeping Designers Happy With Enums";
 			sourceTree = "<group>";
@@ -123,6 +139,16 @@
 				4351E5FF1CCD290600B4B3B0 /* Info.plist */,
 			);
 			path = "Keeping Designers Happy With EnumsUITests";
+			sourceTree = "<group>";
+		};
+		4351E60B1CCD293900B4B3B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B081331CD567C10033532F /* ArrayExt.swift */,
+				4351E5DD1CCD290600B4B3B0 /* AppDelegate.swift */,
+				4351E5E91CCD290600B4B3B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +219,7 @@
 				TargetAttributes = {
 					4351E5D91CCD290600B4B3B0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 84AK95EPL5;
 					};
 					4351E5ED1CCD290600B4B3B0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,8 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4351E5E81CCD290600B4B3B0 /* LaunchScreen.storyboard in Resources */,
 				4351E5E51CCD290600B4B3B0 /* Assets.xcassets in Resources */,
+				43B081301CD55AB60033532F /* CityScapeTableViewCell.xib in Resources */,
 				4351E5E31CCD290600B4B3B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4351E5E01CCD290600B4B3B0 /* ViewController.swift in Sources */,
+				43B081321CD55D610033532F /* CityScapePhotos.swift in Sources */,
+				4351E5E01CCD290600B4B3B0 /* CityScapeVC.swift in Sources */,
 				4351E5DE1CCD290600B4B3B0 /* AppDelegate.swift in Sources */,
+				4351E60D1CCD297C00B4B3B0 /* Stylesheet.swift in Sources */,
+				437E049C1CE2414000C1223C /* UIImageViewExt.swift in Sources */,
+				437E049A1CE16A5300C1223C /* UIColorExt.swift in Sources */,
+				43B0812F1CD55AB60033532F /* CityScapeTableViewCell.swift in Sources */,
+				43B081341CD567C10033532F /* ArrayExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +332,6 @@
 				4351E5E21CCD290600B4B3B0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4351E5E61CCD290600B4B3B0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4351E5E71CCD290600B4B3B0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Keeping Designers Happy With Enums/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.patrickreynolds.Keeping-Designers-Happy-With-Enums";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Keeping Designers Happy With Enums/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.patrickreynolds.Keeping-Designers-Happy-With-Enums";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +515,7 @@
 				4351E6041CCD290600B4B3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4351E6051CCD290600B4B3B0 /* Build configuration list for PBXNativeTarget "Keeping Designers Happy With EnumsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +524,7 @@
 				4351E6071CCD290600B4B3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4351E6081CCD290600B4B3B0 /* Build configuration list for PBXNativeTarget "Keeping Designers Happy With EnumsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +533,7 @@
 				4351E60A1CCD290600B4B3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
