@@ -8,13 +8,13 @@
 
 import UIKit
 
-// Stylesheet
+// MARK: - Stylesheet
 struct Stylesheet {
     private init() {}
-    
+
     static let DefaultHeadingFontSize: CGFloat = 20
     static let DefaultSubtitleFontSize: CGFloat = 14
-    
+
     struct LocationCard {
         static let HeadingFontSize: CGFloat = Stylesheet.DefaultHeadingFontSize
         static let PriceSubtitleSize: CGFloat = 8
@@ -23,25 +23,28 @@ struct Stylesheet {
     }
     
     static func prepare(cell: CityScapeTableViewCell) {
+        // MARK: Location Information Attributes
         cell.infoContainer.backgroundColor = CityScapeColorStyle.ImageInfoBackground.color
-        
-        cell.priceView.backgroundColor = CityScapeColorStyle.LocationPriceContainerBackground.color
-        
-        cell.priceLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
-        cell.priceLabel.font = CityScapeFont.TextRegular.font(LocationCard.HeadingFontSize)
-        
-        cell.currencyLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
-        cell.currencyLabel.font = CityScapeFont.TextMedium.font(LocationCard.PriceSubtitleSize)
-        
-        cell.frequencyLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
-        cell.frequencyLabel.font = CityScapeFont.TextMedium.font(LocationCard.PriceSubtitleSize)
-        
+
         cell.cityLabel.font = CityScapeFont.TextLight.font(Stylesheet.DefaultHeadingFontSize)
         cell.cityLabel.textColor = CityScapeColorStyle.ImageTitle.color
-        
+
         cell.countryLabel.font = CityScapeFont.TextRegular.font(Stylesheet.DefaultSubtitleFontSize)
         cell.countryLabel.textColor = CityScapeColorStyle.ImageSubtitle.color
-        
+
+        // MARK: Location Price Information Attributes
+        cell.priceView.backgroundColor = CityScapeColorStyle.LocationPriceContainerBackground.color
+
+        cell.priceLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
+        cell.priceLabel.font = CityScapeFont.TextRegular.font(LocationCard.HeadingFontSize)
+
+        cell.currencyLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
+        cell.currencyLabel.font = CityScapeFont.TextMedium.font(LocationCard.PriceSubtitleSize)
+
+        cell.frequencyLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
+        cell.frequencyLabel.font = CityScapeFont.TextMedium.font(LocationCard.PriceSubtitleSize)
+
+        // MARK: Host Image Attributes
         cell.hostImageView.layer.borderColor = CityScapeColor.White.color.CGColor
         cell.hostImageView.layer.borderWidth = LocationCard.HostImageBorderWidth
         cell.hostImageView.layer.cornerRadius = cell.hostImageView.frame.height / 2
@@ -49,14 +52,14 @@ struct Stylesheet {
     }
 }
 
-// Colors
+// MARK: - Colors
 enum CityScapeColor {
     case Heading
     case Subtitle
     case Background
     case Clear
     case White
-    
+
     var color: UIColor {
         switch self {
         case .Heading:    return UIColor(hex: 0x5E605A)
@@ -68,6 +71,7 @@ enum CityScapeColor {
     }
 }
 
+// MARK: Color Style
 enum CityScapeColorStyle {
     case ImageTitle
     case ImageSubtitle
@@ -86,7 +90,7 @@ enum CityScapeColorStyle {
     }
 }
 
-// Fonts
+// MARK: - Fonts
 enum CityScapeFont: String {
     case TextLight   = ".SFUIText-Light"
     case TextItalic  = ".SFUIText-Italic"
@@ -98,7 +102,7 @@ enum CityScapeFont: String {
     }
 }
 
-// Images
+// MARK: - Images
 enum CityScapeImage: String {
     case SanFrancisco = "San Francisco"
     case SanDiego     = "San Diego"
