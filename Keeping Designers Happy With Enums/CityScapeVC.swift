@@ -26,7 +26,7 @@ class CityScapeVC: UIViewController {
         tableView.dataSource = self
         
         tableView.registerNib(UINib(nibName: String(CityScapeTableViewCell), bundle: nil), forCellReuseIdentifier:String(CityScapeTableViewCell))
-        tableView.separatorColor = CityScapeColor.Clear.color
+        tableView.separatorColor = UIColor.clearColor()
         tableView.separatorStyle = .None
     }
 }
@@ -45,7 +45,7 @@ extension CityScapeVC: UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return Stylesheet.LocationCard.Height
+        return 320
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {

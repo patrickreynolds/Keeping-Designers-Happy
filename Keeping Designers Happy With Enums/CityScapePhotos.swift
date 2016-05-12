@@ -16,7 +16,7 @@ struct CityScapeLocations {
             CityScapeLocation(city: "New York", country: "United States", favorited: true, price: "$99", currency: "USD", frequency: "PER NIGHT", hostname: "nayyer"),
             CityScapeLocation(city: "London", country: "United Kingdom", favorited: false, price: "£99", currency: "GBP", frequency: "PER NIGHT", hostname: "patrick"),
             CityScapeLocation(city: "Sydney", country: "Australia", favorited: false, price: "$99", currency: "AUD", frequency: "PER NIGHT", hostname: "knris"),
-            CityScapeLocation(city: "Interlaken", country: "Switzerland", favorited: true, price: "CHF99", currency: "CHF", frequency: "PER NIGHT", hostname: "michael")
+            CityScapeLocation(city: "Interlaken", country: "Switzerland", favorited: true, price: "€99", currency: "CHF", frequency: "PER NIGHT", hostname: "michael")
         ]
     }
 }

@@ -12,14 +12,14 @@ extension CityScapeTableViewCell {
     override func setHighlighted(highlighted: Bool, animated: Bool) {
         super.setHighlighted(highlighted, animated: animated)
         if highlighted {
-            priceView.backgroundColor = CityScapeColorStyle.LocationPriceContainerBackground.color
+            priceView.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.72)
         }
     }
     
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         if selected {
-            priceView.backgroundColor = CityScapeColorStyle.LocationPriceContainerBackground.color
+            priceView.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.72)
         }
     }
 }
