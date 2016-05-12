@@ -30,16 +30,7 @@ struct CityScapeLocation {
     let frequency: String
     let hostname: String
     
-    var image: UIImage? {
-        return CityScapeImage(rawValue: city)?.image()
-    }
-    
     var hostImage: UIImage? {
         return UIImage(named: hostname)
-    }
-    
-    // Private
-    private var imageName: String {
-        return city
     }
 }

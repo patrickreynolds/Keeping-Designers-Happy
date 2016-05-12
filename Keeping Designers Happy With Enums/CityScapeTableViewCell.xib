@@ -63,8 +63,8 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="u00-yR-LC4"/>
                                 <exclude reference="CfJ-6a-cl2"/>
+                                <exclude reference="u00-yR-LC4"/>
                                 <exclude reference="Qa5-QE-X4b"/>
                                 <exclude reference="Qhg-mL-dXk"/>
                             </mask>

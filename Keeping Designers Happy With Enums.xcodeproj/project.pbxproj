@@ -16,6 +16,7 @@
 		4351E60D1CCD297C00B4B3B0 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E60C1CCD297C00B4B3B0 /* Stylesheet.swift */; };
 		437E049A1CE16A5300C1223C /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E04991CE16A5300C1223C /* UIColorExt.swift */; };
 		437E049C1CE2414000C1223C /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E049B1CE2414000C1223C /* UIImageViewExt.swift */; };
+		437E04A31CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E04A21CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift */; };
 		43B0812F1CD55AB60033532F /* CityScapeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */; };
 		43B081301CD55AB60033532F /* CityScapeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B0812E1CD55AB60033532F /* CityScapeTableViewCell.xib */; };
 		43B081321CD55D610033532F /* CityScapePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B081311CD55D610033532F /* CityScapePhotos.swift */; };
@@ -55,6 +56,7 @@
 		4351E60C1CCD297C00B4B3B0 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
 		437E04991CE16A5300C1223C /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
 		437E049B1CE2414000C1223C /* UIImageViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		437E04A21CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScapeTableViewCellExt.swift; sourceTree = "<group>"; };
 		43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScapeTableViewCell.swift; sourceTree = "<group>"; };
 		43B0812E1CD55AB60033532F /* CityScapeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityScapeTableViewCell.xib; sourceTree = "<group>"; };
 		43B081311CD55D610033532F /* CityScapePhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScapePhotos.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		4351E5DC1CCD290600B4B3B0 /* Keeping Designers Happy With Enums */ = {
 			isa = PBXGroup;
 			children = (
+				437E04A11CE4DA2C00C1223C /* Extenstions */,
 				4351E5E11CCD290600B4B3B0 /* Main.storyboard */,
 				4351E5DF1CCD290600B4B3B0 /* CityScapeVC.swift */,
 				43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */,
@@ -117,8 +120,6 @@
 				43B081311CD55D610033532F /* CityScapePhotos.swift */,
 				4351E5E41CCD290600B4B3B0 /* Assets.xcassets */,
 				4351E60B1CCD293900B4B3B0 /* Supporting Files */,
-				437E04991CE16A5300C1223C /* UIColorExt.swift */,
-				437E049B1CE2414000C1223C /* UIImageViewExt.swift */,
 			);
 			path = "Keeping Designers Happy With Enums";
 			sourceTree = "<group>";
@@ -149,6 +150,16 @@
 				4351E5E91CCD290600B4B3B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		437E04A11CE4DA2C00C1223C /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				437E04A21CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift */,
+				437E04991CE16A5300C1223C /* UIColorExt.swift */,
+				437E049B1CE2414000C1223C /* UIImageViewExt.swift */,
+			);
+			name = Extenstions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B081321CD55D610033532F /* CityScapePhotos.swift in Sources */,
+				437E04A31CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift in Sources */,
 				4351E5E01CCD290600B4B3B0 /* CityScapeVC.swift in Sources */,
 				4351E5DE1CCD290600B4B3B0 /* AppDelegate.swift in Sources */,
 				4351E60D1CCD297C00B4B3B0 /* Stylesheet.swift in Sources */,
