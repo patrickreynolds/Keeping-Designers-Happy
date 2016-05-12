@@ -21,35 +21,6 @@ struct Stylesheet {
         static let HostImageBorderWidth: CGFloat = 2.0
         static let Height: CGFloat = 320
     }
-    
-    static func prepare(cell: CityScapeTableViewCell) {
-        // MARK: Location Information Attributes
-        cell.infoContainer.backgroundColor = CityScapeColorStyle.ImageInfoBackground.color
-
-        cell.cityLabel.font = CityScapeFont.TextLight.font(Stylesheet.DefaultHeadingFontSize)
-        cell.cityLabel.textColor = CityScapeColorStyle.ImageTitle.color
-
-        cell.countryLabel.font = CityScapeFont.TextRegular.font(Stylesheet.DefaultSubtitleFontSize)
-        cell.countryLabel.textColor = CityScapeColorStyle.ImageSubtitle.color
-
-        // MARK: Location Price Information Attributes
-        cell.priceView.backgroundColor = CityScapeColorStyle.LocationPriceContainerBackground.color
-
-        cell.priceLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
-        cell.priceLabel.font = CityScapeFont.TextRegular.font(LocationCard.HeadingFontSize)
-
-        cell.currencyLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
-        cell.currencyLabel.font = CityScapeFont.TextMedium.font(LocationCard.PriceSubtitleSize)
-
-        cell.frequencyLabel.textColor = CityScapeColorStyle.LocationPriceContainerFontColor.color
-        cell.frequencyLabel.font = CityScapeFont.TextMedium.font(LocationCard.PriceSubtitleSize)
-
-        // MARK: Host Image Attributes
-        cell.hostImageView.layer.borderColor = CityScapeColor.White.color.CGColor
-        cell.hostImageView.layer.borderWidth = LocationCard.HostImageBorderWidth
-        cell.hostImageView.layer.cornerRadius = cell.hostImageView.frame.height / 2
-        cell.hostImageView.clipsToBounds = true
-    }
 }
 
 // MARK: - Colors
