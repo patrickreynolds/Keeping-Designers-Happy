@@ -23,10 +23,6 @@ class CityScapeTableViewCell: UITableViewCell {
     @IBOutlet internal weak var countryLabel: UILabel!
     @IBOutlet internal weak var hostImageView: UIImageView!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
     func updateCell(location: CityScapeLocation) {
         // MARK: Location Information
         infoContainer.backgroundColor = UIColor.whiteColor()
