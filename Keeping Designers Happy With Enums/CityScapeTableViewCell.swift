@@ -35,7 +35,7 @@ class CityScapeTableViewCell: UITableViewCell {
         countryLabel.font = CityScapeFont.TextRegular.font(Stylesheet.DefaultSubtitleFontSize)
         countryLabel.textColor = CityScapeColorStyle.ImageSubtitle.color
 
-        cityImageView.setAsync(CityScapeImage(rawValue: location.city)?.image())
+        cityImageView.image = CityScapeImage(rawValue: location.city)?.image()
 
         // MARK: Price Information Attributes
         priceView.backgroundColor = CityScapeColorStyle.LocationPriceContainerBackground.color
@@ -57,6 +57,6 @@ class CityScapeTableViewCell: UITableViewCell {
         hostImageView.layer.borderWidth = Stylesheet.LocationCard.HostImageBorderWidth
         hostImageView.layer.cornerRadius = hostImageView.frame.height / 2
         hostImageView.clipsToBounds = true
-        hostImageView.setAsync(location.hostImage)
+        hostImageView.image = location.hostImage
     }
 }

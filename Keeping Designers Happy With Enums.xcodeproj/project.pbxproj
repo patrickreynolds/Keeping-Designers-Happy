@@ -15,7 +15,6 @@
 		4351E5FE1CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E5FD1CCD290600B4B3B0 /* Keeping_Designers_Happy_With_EnumsUITests.swift */; };
 		4351E60D1CCD297C00B4B3B0 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351E60C1CCD297C00B4B3B0 /* Stylesheet.swift */; };
 		437E049A1CE16A5300C1223C /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E04991CE16A5300C1223C /* UIColorExt.swift */; };
-		437E049C1CE2414000C1223C /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E049B1CE2414000C1223C /* UIImageViewExt.swift */; };
 		437E04A31CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E04A21CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift */; };
 		43B0812F1CD55AB60033532F /* CityScapeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */; };
 		43B081301CD55AB60033532F /* CityScapeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B0812E1CD55AB60033532F /* CityScapeTableViewCell.xib */; };
@@ -55,7 +54,6 @@
 		4351E5FF1CCD290600B4B3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4351E60C1CCD297C00B4B3B0 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
 		437E04991CE16A5300C1223C /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
-		437E049B1CE2414000C1223C /* UIImageViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
 		437E04A21CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScapeTableViewCellExt.swift; sourceTree = "<group>"; };
 		43B0812D1CD55AB60033532F /* CityScapeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScapeTableViewCell.swift; sourceTree = "<group>"; };
 		43B0812E1CD55AB60033532F /* CityScapeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityScapeTableViewCell.xib; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 			children = (
 				437E04A21CE4DA3F00C1223C /* CityScapeTableViewCellExt.swift */,
 				437E04991CE16A5300C1223C /* UIColorExt.swift */,
-				437E049B1CE2414000C1223C /* UIImageViewExt.swift */,
 			);
 			name = Extenstions;
 			sourceTree = "<group>";
@@ -299,7 +296,6 @@
 				4351E5E01CCD290600B4B3B0 /* CityScapeVC.swift in Sources */,
 				4351E5DE1CCD290600B4B3B0 /* AppDelegate.swift in Sources */,
 				4351E60D1CCD297C00B4B3B0 /* Stylesheet.swift in Sources */,
-				437E049C1CE2414000C1223C /* UIImageViewExt.swift in Sources */,
 				437E049A1CE16A5300C1223C /* UIColorExt.swift in Sources */,
 				43B0812F1CD55AB60033532F /* CityScapeTableViewCell.swift in Sources */,
 				43B081341CD567C10033532F /* ArrayExt.swift in Sources */,
