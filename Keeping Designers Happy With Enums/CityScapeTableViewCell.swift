@@ -32,8 +32,8 @@ class CityScapeTableViewCell: UITableViewCell {
         // MARK: Location Information
         cityLabel.text = location.city
         countryLabel.text = location.country
-        cityImageView.setAsync(CityScapeImage(rawValue: location.city)?.image())
-        hostImageView.setAsync(location.hostImage)
+        cityImageView.image = CityScapeImage(rawValue: location.city)?.image()
+        hostImageView.image = location.hostImage
 
         // MARK: Price Information
         priceLabel.text = location.price
